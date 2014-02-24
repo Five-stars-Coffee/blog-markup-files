@@ -1,0 +1,19 @@
+/******
+ *
+ *
+ *	Table of content
+ *	
+ *
+ *
+ ******/
+.row {
+  zoom: 1; }
+
+@media (min-width: 10em) {
+  .small-12col {
+    float: left;
+    margin-right: 2%; }
+
+  .small-12col {
+    position: relative;
+    width: 100%; } }

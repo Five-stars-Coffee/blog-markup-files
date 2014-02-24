@@ -1,0 +1,45 @@
+/******
+ *
+ *
+ *	Table of content
+ *	
+ *  1. CSS reset
+ *
+ *  2. Main content
+ *
+ *  3. Footer
+ *
+ *
+ ******/
+.blog-wrapper .header .top-nav {
+  display: block;
+  float: right;
+  position: relative;
+  left: -20px;
+  padding-top: 30px; }
+  .blog-wrapper .header .top-nav ul {
+    list-style: none; }
+    .blog-wrapper .header .top-nav ul li {
+      float: left;
+      margin: 0 10px; }
+      .blog-wrapper .header .top-nav ul li a {
+        color: #dcd2be;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .8em;
+        padding: 15px 10px 5px 10px; }
+        .blog-wrapper .header .top-nav ul li a:hover {
+          border-bottom: 3px solid #cb5432; }
+.blog-wrapper .main-nav {
+  display: none; }
+.blog-wrapper .content_wrapper {
+  padding: 34px 0 0 0; }
+  .blog-wrapper .content_wrapper .main-content {
+    float: left;
+    width: 60%;
+    margin-left: 50px; }
+  .blog-wrapper .content_wrapper .sidebar {
+    float: right;
+    width: 25%;
+    position: relative;
+    left: -2em; }
