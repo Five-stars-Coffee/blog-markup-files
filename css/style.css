@@ -202,16 +202,34 @@ h1, h2, h3, h4, h5, h6 {
           list-style: none;
           font-size: .8em; }
           .blog-wrapper .content_wrapper .sidebar .widget ul .recent-boxes {
-            margin: 15px 15px 35px 5px; }
-            .blog-wrapper .content_wrapper .sidebar .widget ul .recent-boxes img {
+            margin-bottom: 35px; }
+          .blog-wrapper .content_wrapper .sidebar .widget ul li {
+            margin: 15px 15px 15px 5px; }
+            .blog-wrapper .content_wrapper .sidebar .widget ul li img {
               float: left;
-              clear: both; }
-            .blog-wrapper .content_wrapper .sidebar .widget ul .recent-boxes a {
+              clear: both;
+              border: 3px solid #f1f1f1; }
+            .blog-wrapper .content_wrapper .sidebar .widget ul li p {
+              position: relative;
+              left: 10px; }
+              .blog-wrapper .content_wrapper .sidebar .widget ul li p a {
+                display: block;
+                color: #cb5432;
+                text-decoration: none;
+                font-size: 1em;
+                margin-right: 15px;
+                padding: 3px 0 17px 0;
+                -webkit-transition: color 0.3s ease-in; }
+                .blog-wrapper .content_wrapper .sidebar .widget ul li p a:hover {
+                  color: #656360; }
+            .blog-wrapper .content_wrapper .sidebar .widget ul li a {
+              display: block;
               color: #cb5432;
               text-decoration: none;
               font-size: 1em;
+              margin-right: 15px;
               -webkit-transition: color 0.3s ease-in; }
-              .blog-wrapper .content_wrapper .sidebar .widget ul .recent-boxes a:hover {
+              .blog-wrapper .content_wrapper .sidebar .widget ul li a:hover {
                 color: #656360; }
 
 /*
