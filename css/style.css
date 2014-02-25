@@ -197,7 +197,8 @@ h1, h2, h3, h4, h5, h6 {
           padding-bottom: 10px;
           font-weight: 400;
           font-size: 1.6em;
-          text-indent: 1px; }
+          text-indent: 1px;
+          text-align: center; }
         .blog-wrapper .content_wrapper .sidebar .widget ul {
           list-style: none;
           font-size: .8em; }
@@ -252,6 +253,6 @@ h1, h2, h3, h4, h5, h6 {
         border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
         .footer .row ul .about h4 {
           font-size: 1.2em; }
-        .footer .row ul .about li p {
+        .footer .row ul .about p {
           font-size: .8em;
           line-height: 1.5em; }

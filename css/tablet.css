@@ -43,3 +43,6 @@
     width: 25%;
     position: relative;
     left: -2em; }
+.blog-wrapper .footer ul li {
+  width: 50%;
+  margin: 0 auto; }

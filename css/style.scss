@@ -242,6 +242,7 @@ h1, h2, h3, h4, h5, h6{
 					font-weight:400;
 					font-size:1.6em;
 					text-indent:1px;
+					text-align: center;
 				}
 				ul{
 					list-style:none;
@@ -313,11 +314,9 @@ h1, h2, h3, h4, h5, h6{
 				h4{
 					font-size:1.2em;
 				}
-				li{
-					p{
-						font-size:.8em;
-						line-height: 1.5em;
-					}
+				p{
+					font-size:.8em;
+					line-height: 1.5em;
 				}
 			}
 		}
